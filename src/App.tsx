@@ -50,7 +50,8 @@ const PublicRoute: React.FC<{ children: React.ReactNode }> = ({ children }) => {
 function App() {
   return (
     <AuthProvider>
-      <Router>
+      {/* ALTERAÇÃO NECESSÁRIA AQUI 👇 */}
+      <Router basename="/LifemotorWeb">
         <Routes>
           {/* Public Routes */}
           <Route

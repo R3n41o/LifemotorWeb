@@ -32,7 +32,7 @@ export const LoginPage: React.FC = () => {
         <div className="bg-white rounded-2xl shadow-lg p-8">
           <div className="text-center mb-8">
             <img
-              src="https://placehold.co/200x200/FFCB05/000000?text=Biu"
+              src="https://placehold.co/200x200/FFCB05/000000?text=LM"
               alt="Mascote Biu"
               className="w-24 h-24 mx-auto mb-4 rounded-full"
             />
